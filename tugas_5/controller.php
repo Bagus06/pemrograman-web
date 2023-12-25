@@ -14,10 +14,11 @@ if (!empty($_POST)) {
         'dt_fk' => @$dt_fk[@$nim[1]],
         'dt_prodi' => @$dt_prodi[@$nim[1]][@$nim[2]],
         'no_urut' => @$nim[3],
+        'ln_nim' => strlen($data['nim']),
     ];
 
-    if (empty($datas['data']['dt_prodi']) || empty($datas['data']['dt_fk'])) {
-        $datas['notif'] = "Maaf " . $datas['data']['name'] . ", NIM yang anda masukka mungkin salah. Mohon untuk memasukkan format NIM dengan benar.";
+    if (($datas['data']['ln_nim'] !== 13) || (empty($datas['data']['dt_prodi']) || empty($datas['data']['dt_fk']))) {
+        $datas['notif'] = "Maaf " . $datas['data']['name'] . ", NIM yang anda masukkan mungkin salah. Mohon untuk memasukkan format NIM dengan benar.";
         $datas['data'] = [];
     }
 }

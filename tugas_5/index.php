@@ -50,6 +50,11 @@ require_once 'controller.php';
                         <?php if (!empty($datas['data'])) : ?>
                             <table border="0">
                                 <tr>
+                                    <td>Panjang NIM</td>
+                                    <td> : </td>
+                                    <td><?= $datas['data']['ln_nim'] ?></td>
+                                </tr>
+                                <tr>
                                     <td>Nama</td>
                                     <td> : </td>
                                     <td><?= $datas['data']['name'] ?></td>
