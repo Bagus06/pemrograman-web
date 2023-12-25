@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-logo {
+    width: 40px;
+}
+
+.navbar-logo-name {
+    color: whitesmoke;
+    font-family: "Lucida Handwriting";
+}
+
+.bg-light-custom {
+    background-color: #00AA5B;
+}
+
+.navbar-search {
+    background-color: whitesmoke;
+    border-radius: 3px !important;
+    padding: 5px;
+}
+
+.navbar-search>input {
+    background-color: whitesmoke;
+    border: 0px !important;
+}
+
+.navbar-search>button {
+    border-radius: 3px !important;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.btn-nav {
+    color: whitesmoke;
+    padding: 0px !important;
+}
+
+.vl {
+    border-left: 2px solid whitesmoke;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.brand {
+    height: 4vh;
+}
+
+.carousel-mini-cover {
+    width: 100%;
+    height: 50%;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+.carousel-mini-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-bar {
+    margin-top: 5px;
+    background-color: white;
+    height: fit-content;
+    padding: 10px
+}
+
+.info-bar-items {
+    padding: 15px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.info-bar-items>i {
+    padding-right: 5px;
+    color: #00AA5B;
+}
+
+.card-brand-layout {
+    padding: 3px;
+}
+
+.card-brand {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(203, 203, 203);
+    border-radius: 5px;
+}
+
+.card-brand>img {
+    padding: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title-layout {
+    font-weight: 500;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: #00AA5B;
+    border-bottom: 3px solid #00AA5B;
+    margin-bottom: 10px;
+}
+
+.card-product-layout {
+    padding: 5px;
+}
+
+.card-product {
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 3px 0.5px rgb(188, 188, 188);
+}
+
+.product-image {
+    width: 100%;
+    height: 140px;
+}
+
+.product-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-desc {
+    padding: 3px;
+}
+
+.product {
+    display: -webkit-box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.product-title {
+    color: black;
+    font-weight: 500;
+    height: 50px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #00AA5B;
+    -webkit-line-clamp: 1;
+}
