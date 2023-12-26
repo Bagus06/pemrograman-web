@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                     <div class="col-md-6 d-none d-md-block">
                         <div class="row align-items-center">
                             <a class="navbar-brand" href="# ">
-                                <img class="d-inline-block align-top navbar-logo " src="img/logo/Square-Full White.png " alt="">
+                                <img class="d-inline-block align-top navbar-logo " src="./img/logo/Square-Full White.png " alt="">
                             </a>
                             <div class="vl brand"></div>
                             <h4 class="navbar-logo-name">INVY Store</h4>
@@ -60,22 +60,22 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/carausel/img1.png" class="d-block w-100" alt="...">
+                                <img src="./img/carausel/img1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/carausel/img2.png" class="d-block w-100" alt="...">
+                                <img src="./img/carausel/img2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/carausel/img3.png" class="d-block w-100" alt="...">
+                                <img src="./img/carausel/img3.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
                         </button>
                     </div>
                 </div>
@@ -130,32 +130,32 @@
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/oppo.png" alt="">
+                            <img src="./img/brand/oppo.png" alt="">
                         </div>
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/vivo.png" alt="">
+                            <img src="./img/brand/vivo.png" alt="">
                         </div>
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/deerma.png" alt="">
+                            <img src="./img/brand/deerma.png" alt="">
                         </div>
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/philips.png" alt="">
+                            <img src="./img/brand/philips.png" alt="">
                         </div>
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/dell.png" alt="">
+                            <img src="./img/brand/dell.png" alt="">
                         </div>
                     </div>
                     <div class="col-6 col-lg-2 card-brand-layout">
                         <div class="card-brand align-items-center">
-                            <img src="img/brand/samsung.png" alt="">
+                            <img src="./img/brand/samsung.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p1.jpg" alt="">
+                                <img src="./img/product/philips-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">PHILIPS 1.8L Digital Rice Cooker HD4515/85 - 400Watt - 10 Menu, Green, hijau, mejikom multi fungsi</span>
@@ -180,7 +180,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p2.jpg" alt="">
+                                <img src="./img/product/philips-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Philips HR2042/13 3000 Series Blender 290W Plastic</span>
@@ -191,7 +191,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p3.jpg" alt="">
+                                <img src="./img/product/philips-p3.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Philips Setrika Kering Diva GC122/37 - Ungu, Tapak Non-Stick, Ujung runcing dengan alur kancing, seterika setrikaan gosokan baju</span>
@@ -202,7 +202,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p4.jpg" alt="">
+                                <img src="./img/product/philips-p4.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Philips HR2042/30 3000 Series Blender 290W Plastic</span>
@@ -213,7 +213,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p5.jpg" alt="">
+                                <img src="./img/product/philips-p5.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">PHILIPS 2L Blender Plastic Jar 4-in-1 HR2223/30, 4 Pisau, chopper, filter, dry mill, plastik, hijau</span>
@@ -224,7 +224,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/philips-p6.jpg" alt="">
+                                <img src="./img/product/philips-p6.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Philips Setrika Kering Classic HD1172/99 - Hitam, Tapak Anti Lengket</span>
@@ -235,7 +235,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p1.jpg" alt="">
+                                <img src="./img/product/vivo-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">[NEW LAUNCH] vivo Y27s (8/128) - 50MP Camera, 44WFlashCharge, Snapdragon 680, IP54 Water Resistance</span>
@@ -246,7 +246,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p2.jpg" alt="">
+                                <img src="./img/product/vivo-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">vivo Earphone XE160 Original [Suara HD Berkualitas] - Garansi Resmi 6 Bulan</span>
@@ -257,7 +257,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p3.jpg" alt="">
+                                <img src="./img/product/vivo-p3.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">vivo iQOO Cooling Back Clip Neo</span>
@@ -268,7 +268,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p4.jpg" alt="">
+                                <img src="./img/product/vivo-p4.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">vivo Color Earphone</span>
@@ -279,7 +279,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p5.jpg" alt="">
+                                <img src="./img/product/vivo-p5.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">[DISKON 700RB] vivo Y33T/ Y33s - ROM128GB , 50MP Night Camera, 5000mAh+18W Fastcharge</span>
@@ -290,7 +290,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/vivo-p6.jpg" alt="">
+                                <img src="./img/product/vivo-p6.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">vivo Original Charger Adapter 18W - Fast Charging</span>
@@ -301,7 +301,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dell-p1.jpg" alt="">
+                                <img src="./img/product/dell-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">DELL Inspiron 7430-i71355U-16-512-U-W11-F-O</span>
@@ -312,7 +312,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dell-p2.jpg" alt="">
+                                <img src="./img/product/dell-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Dell Optical Mouse - MS116</span>
@@ -323,7 +323,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dell-p3.jpg" alt="">
+                                <img src="./img/product/dell-p3.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Dell Thunderbolt Dock - WD22TB4</span>
@@ -334,7 +334,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dell-p4.jpg" alt="">
+                                <img src="./img/product/dell-p4.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Dell Acc Multimedia Keyboard - KB216</span>
@@ -345,7 +345,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/oppo-p1.jpg" alt="">
+                                <img src="./img/product/oppo-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">OPPO MH320 Stereo Earphones 3.5mm</span>
@@ -356,7 +356,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/oppo-p2.jpg" alt="">
+                                <img src="./img/product/oppo-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">[NEW!] OPPO A58 6/128GB [6GB+6GB RAM Expansion, 5000mAh SUPERVOOC 33W, FHD+ Big Screen]</span>
@@ -367,7 +367,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/oppo-p3.jpg" alt="">
+                                <img src="./img/product/oppo-p3.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">[NEW] OPPO A18 4GB/128GB [5000mAh Large Battery, 90Hz Sunlight Display, IP54 Dust Water Resistance]</span>
@@ -378,7 +378,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/sm-p1.jpg" alt="">
+                                <img src="./img/product/sm-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">[Free Gift] The Freestyle Battery Base VG-FBB3BA/XY for The Freestyle 2 SP-LFF3CLAXXXD All Around</span>
@@ -389,7 +389,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/sm-p2.jpg" alt="">
+                                <img src="./img/product/sm-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Samsung Galaxy A05 6/128GB - Silver</span>
@@ -400,7 +400,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/sm-p3.jpg" alt="">
+                                <img src="./img/product/sm-p3.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Samsung Galaxy A54 5G 8/256GB - Awesome Violet</span>
@@ -411,7 +411,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dm-p1.jpg" alt="">
+                                <img src="./img/product/dm-p1.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Deerma DX700 2-In-1 Handheld Vacuum Cleaner home penyedot debu</span>
@@ -422,7 +422,7 @@
                     <div class="col-6 col-lg-2 card-product-layout ">
                         <div class="card-product">
                             <div class="product-image">
-                                <img src="img/product/dm-p2.jpg" alt="">
+                                <img src="./img/product/dm-p2.jpg" alt="">
                             </div>
                             <div class="product-desc">
                                 <span class="product product-title">Deerma DX700 2-In-1 Handheld</span>
@@ -435,9 +435,9 @@
         </div>
     </div>
 
-    <script src=" js/jquery.min.js "></script>
-    <script src=" js/bootstrap.min.js "></script>
-    <script src=" js/2d72363862.js "></script>
+    <script src="./../vendor/jquery/jquery.min.js"></script>
+    <script src="./../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/2d72363862.js"></script>
 </body>
 
 </html>
