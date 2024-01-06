@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Mahasiswa</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form id="mahasiswaForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required>
+
+        <label>Jenis Kelamin:</label>
+        <label for="laki-laki">
+            <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki"> Laki-laki
+        </label>
+
+        <label for="perempuan">
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan"> Perempuan
+        </label>
+
+        <label for="hobi">Hobi:</label>
+        <label for="sepakbola">
+            <input type="checkbox" id="sepakbola" name="hobi" value="sepakbola"> Sepakbola
+        </label>
+        <label for="basket">
+            <input type="checkbox" id="basket" name="hobi" value="basket"> Basket
+        </label>
+
+        <label for="prodi">Fakultas:</label>
+        <select id="prodi" name="prodi">
+            <option value="FTII">FTII</option>
+            <option value="FEB">FEB</option>
+            <option value="FHB">FHB</option>
+            <option value="VOKASI">VOKASI</option>
+        </select>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+        <button type="button">Tambah Data</button>
+        <button type="submit">Simpan Data</button>
+    </form>
+
+</body>
+
+</html>

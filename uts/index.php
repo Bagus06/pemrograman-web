@@ -16,9 +16,9 @@
             <div class="col-12">
                 <div class="col-12" style="padding-bottom: 12px;">
                     <div class="row d-flex justify-content-end">
-                        <a class="btn btn-nav" href="#"><i class="fa-regular fa-circle-user"></i> <b>Profile</b></a>
+                        <a class="btn btn-nav" href="./profile.html"><i class="fa-regular fa-circle-user"></i> <b>Profile</b></a>
                         <div class="vl"></div>
-                        <a class="btn btn-nav" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> <b>Log Out</b></a>
+                        <a class="btn btn-nav" href="./login.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> <b>Log IN</b></a>
                     </div>
                 </div>
                 <div class="row">
